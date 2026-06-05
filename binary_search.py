@@ -18,7 +18,7 @@ Low = 0
 high = len(data)-1
 
 while Low <= high:
-    x = (Low + high)
+    x = (Low + high) // 2
     y = data[x]
     if y == num:
         print(f"A number was found. His position in the list = {x}")
